@@ -359,6 +359,7 @@ kube-prometheus-stack:
   #   https://github.com/grafana/helm-charts/blob/main/charts/grafana/README.md
   grafana:
     enabled: true
+    image.tag: 8.3.0
     sidecar:
       datasources:
         enabled: true
